@@ -1,0 +1,16 @@
+﻿{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "amd",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "typeRoots": [ "../node_modules/@types" ],
+    "allowJs": true
+  },
+  "files": [
+        "./app/require-config.ts",
+        "./app/main.ts"
+    ]
+}
